@@ -1,0 +1,16 @@
+export const Languages = [
+  { name: "java" },
+  { name: "python" },
+  { name: "javascript" },
+  { name: "lua" },
+  { name: "c" },
+  { name: "c#" },
+  { name: "c++" },
+  { name: "css" },
+  { name: "clojure" },
+  { name: "dart" },
+  { name: "dockerfile" },
+  { name: "go" },
+  { name: "html" },
+  { name: "json" },
+];
