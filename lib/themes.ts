@@ -328,7 +328,7 @@ export const themes = [
       gutterBackground: "rgba(255, 255, 255, 0.05)", // Semi-transparent gutter background
       gutterForeground: "#ffffff", // White text in gutter
       gutterBorder: "rgba(255, 255, 255, 0.1)", // Light border around gutter
-      lineHighlight: "rgba(255, 255, 255, 0.1)", // Slight highlight for the current line
+      lineHighlight: "transparent", // Slight highlight for the current line
     },
     styles: [
       { tag: t.comment, color: "#f8f8f2" }, // Light gray for comments

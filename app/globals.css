@@ -98,3 +98,13 @@
 .hide-scrollbar::-webkit-scrollbar {
   width: 0 !important;
 }
+
+.featured-scrollbar::-webkit-scrollbar-track {
+  background: green;
+  border-radius: 10px;
+}
+
+.featured-scrollbar::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 6px;
+}

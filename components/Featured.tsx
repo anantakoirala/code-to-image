@@ -9,7 +9,7 @@ const Featured = ({ changeGradient }: Props) => {
   return (
     <div className="flex flex-col gap-2 ">
       <span className="text-primary">Featured Backgrounds</span>
-      <div className="h-[60vh]  overflow-y-scroll mb-10">
+      <div className="h-[60vh]  overflow-y-scroll mb-10 featured-scrollbar">
         {gradients.map(
           (gradient: { name: string; from: string; to: string }, index) => (
             <div
